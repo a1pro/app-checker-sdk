@@ -199,5 +199,11 @@
     "type": "turbo-module",
     "languages": "kotlin-objc",
     "version": "0.48.3"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "axios": "^1.8.1",
+    "fuse.js": "^7.1.0",
+    "react-native-device-info": "^14.0.4"
   }
 }
