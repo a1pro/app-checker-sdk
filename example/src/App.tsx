@@ -75,7 +75,7 @@ const Home: React.FC = () => {
     try {
       const res = await axios.post(
         Base_Url.appnames,
-        { operatorId: '0001' },
+        { operatorId: 1 },
         { headers: { 'Content-Type': 'application/json' } }
       );
 
@@ -149,7 +149,7 @@ const Home: React.FC = () => {
           deviceOs: userDeviceDetails.deviceOs,
           user_id: userId,
           app_closedate: lastCloseDate,
-          operatorId: '0001',
+          operatorId: 1,
           app_name: similarApps,
         },
         {
